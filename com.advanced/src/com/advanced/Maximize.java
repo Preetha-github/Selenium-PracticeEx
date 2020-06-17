@@ -1,7 +1,6 @@
 package com.advanced;
 
 
-import java.awt.Toolkit;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Dimension;
@@ -38,6 +37,7 @@ public class Maximize {
 		 * 
 		 * driver.manage().window().setSize(dimension); Thread.sleep(3000);
 		 */
+		
 		
 		driver.close();
 
