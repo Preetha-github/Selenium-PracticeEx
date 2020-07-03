@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4055" started-at="2020-05-28T16:19:32 BST" finished-at="2020-05-28T16:19:36 BST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4055" started-at="2020-05-28T16:19:32 BST" finished-at="2020-05-28T16:19:36 BST">
+      <class name="login.Logintotal">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:login.Logintotal@5ae63ade]" name="beforeTest" is-config="true" duration-ms="3845" started-at="2020-05-28T16:19:32 BST" finished-at="2020-05-28T16:19:36 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="CUserpwd(java.lang.String, java.lang.String)[pri:0, instance:login.Logintotal@5ae63ade]" name="CUserpwd" duration-ms="0" started-at="2020-05-28T16:19:36 BST" data-provider="LoginData" finished-at="2020-05-28T16:19:36 BST">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[jxl.read.biff.BiffException: Unable to recognize OLE stream]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: jxl.read.biff.BiffException: Unable to recognize OLE stream
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:52)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:148)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:788)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: jxl.read.biff.BiffException: Unable to recognize OLE stream
+at jxl.read.biff.CompoundFile.<init>(CompoundFile.java:116)
+at jxl.read.biff.File.<init>(File.java:127)
+at jxl.Workbook.getWorkbook(Workbook.java:268)
+at jxl.Workbook.getWorkbook(Workbook.java:253)
+at login.Logintotal.getExcelData(Logintotal.java:53)
+at login.Logintotal.dataprovider(Logintotal.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:79)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:48)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CUserpwd -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:login.Logintotal@5ae63ade]" name="afterTest" is-config="true" duration-ms="143" started-at="2020-05-28T16:19:36 BST" finished-at="2020-05-28T16:19:36 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- login.Logintotal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
