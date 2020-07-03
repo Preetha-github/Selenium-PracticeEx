@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search testcases" duration-ms="11337" started-at="2020-06-16T10:04:48 BST" finished-at="2020-06-16T10:04:59 BST">
+    <groups>
+    </groups>
+    <test name="testcases for guru99 search" duration-ms="11337" started-at="2020-06-16T10:04:48 BST" finished-at="2020-06-16T10:04:59 BST">
+      <class name="datadrivenpack.Guru99">
+        <test-method status="PASS" signature="searchIndia(java.lang.String)[pri:0, instance:datadrivenpack.Guru99@731a74c]" name="searchIndia" duration-ms="11282" started-at="2020-06-16T10:04:48 BST" finished-at="2020-06-16T10:04:59 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchIndia -->
+      </class> <!-- datadrivenpack.Guru99 -->
+    </test> <!-- testcases for guru99 search -->
+  </suite> <!-- search testcases -->
+</testng-results>

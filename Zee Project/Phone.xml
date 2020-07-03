@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name= "Pre Sutie">
+<test name= "TestShri">
+
+<classes>
+
+<class name="com.zee.network.AutoCompletion"></class>
+
+<class name="com.zee.network.Selectable"></class>
+
+</classes>
+
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>

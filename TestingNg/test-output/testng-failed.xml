@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test78(failed)">
+    <classes>
+      <class name="us.pack.Annotations">
+        <methods>
+          <include name="beforeMethod2"/>
+          <include name="beforeMethod1"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="Test78"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- us.pack.Annotations -->
+    </classes>
+  </test> <!-- Test78(failed) -->
+</suite> <!-- Failed suite [Suite] -->
