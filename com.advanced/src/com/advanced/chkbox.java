@@ -28,6 +28,7 @@ public class chkbox {
 			li.click();
 			
 		}
+		
 		Thread.sleep(2000);
 		driver.close();
 		
