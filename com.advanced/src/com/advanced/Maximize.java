@@ -39,6 +39,7 @@ public class Maximize {
 		 */
 		
 		
+		
 		driver.close();
 
 	}
