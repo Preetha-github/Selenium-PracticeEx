@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "search testcases">
+	<test name="testcases for guru99 search">
+	<parameter name="Search" value="USA"></parameter>
+		<classes>
+			<class name="datadrivenpack.Guru99"></class>
+		</classes>
+	</test>
+	
+	
+</suite>

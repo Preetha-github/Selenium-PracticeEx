@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Scenarios]">
+  <test thread-count="5" name="Both Incorrect (failed)">
+    <parameter name="UserName" value="dummy"/>
+    <parameter name="Password" value="dummy"/>
+    <classes>
+      <class name="datadrivenpack.BothIncorrect">
+        <methods>
+          <include name="Bothwrong"/>
+        </methods>
+      </class> <!-- datadrivenpack.BothIncorrect -->
+    </classes>
+  </test> <!-- Both Incorrect (failed) -->
+  <test thread-count="5" name="Both Correct (failed)">
+    <parameter name="UserName" value="Admin"/>
+    <parameter name="Password" value="admin123"/>
+    <classes>
+      <class name="datadrivenpack.BothCorrect">
+        <methods>
+          <include name="Bothright"/>
+        </methods>
+      </class> <!-- datadrivenpack.BothCorrect -->
+    </classes>
+  </test> <!-- Both Correct (failed) -->
+  <test thread-count="5" name="Correct Username (failed)">
+    <parameter name="UserName" value="Admin"/>
+    <parameter name="Password" value="dummy"/>
+    <classes>
+      <class name="datadrivenpack.CorrectUsername">
+        <methods>
+          <include name="RightUser"/>
+        </methods>
+      </class> <!-- datadrivenpack.CorrectUsername -->
+    </classes>
+  </test> <!-- Correct Username (failed) -->
+  <test thread-count="5" name="Correct Password (failed)">
+    <parameter name="UserName" value="dummy"/>
+    <parameter name="Password" value="admin123"/>
+    <classes>
+      <class name="datadrivenpack.CorrectPassword">
+        <methods>
+          <include name="RightPass"/>
+        </methods>
+      </class> <!-- datadrivenpack.CorrectPassword -->
+    </classes>
+  </test> <!-- Correct Password (failed) -->
+</suite> <!-- Failed suite [Login Scenarios] -->
