@@ -46,6 +46,7 @@ public class AdvancedLinks {
 			System.out.println("Page is NOT broken");
 		}
 
+		
 		driver.navigate().back();
 
 		WebElement link11 = driver.findElement(By.xpath("//a [text()='Go to Home Page']"));
